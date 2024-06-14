@@ -1,0 +1,62 @@
+htnl {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.task__two__click {
+    width: 100px;
+    max-width: 800px;
+    height: 50px;
+    max-height: 400px;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.task__three__counter {
+    font-size: 24px;
+}
+
+.task__four__btn {
+    margin-bottom: 20px;
+}
+
+.task__four__remove {
+    background-color: cadetblue;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    width: 30vw;
+    font-size: 24px;
+}
+
+.task__six__menu--btn {
+    background-color: chocolate;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.task__six__menu__list {
+    list-style: none;
+    padding: 0;
+    transform: translateX( -100vw );
+    transition: all 0.3s ease;
+}
+
+.task__six__menu__list.active {
+    transform: translateX(0);
+    transition: all 0.3s ease;
+}
